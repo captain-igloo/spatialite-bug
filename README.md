@@ -49,3 +49,5 @@ Enter SQL statements terminated with a ";"
 spatialite> SELECT * FROM knn WHERE f_table_name = 'address' AND ref_geometry = ST_GeomFromText('POINT(174 -41)', 4326);
 address|shape||3|1|1|0.0
 ```
+
+See https://www.gaia-gis.it/fossil/libspatialite/tktview?name=d363d89194 .
